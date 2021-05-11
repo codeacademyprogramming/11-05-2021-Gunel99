@@ -1,0 +1,666 @@
+[
+    {
+        "id": 1,
+        "img": "https://randomuser.me/api/portraits/women/88.jpg",
+        "name": "Roza",
+        "loans": [
+            {
+                "amount": {
+                    "value": 22000,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "Bank of Trauny",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 611.11,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 5000,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "TBC",
+                "period": {
+                    "type": "month",
+                    "value": 12
+                },
+                "perMonth": {
+                    "value": 416.66,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 2916,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "03.01.2022",
+                    "start": "03.01.2021"
+                },
+                "interestRate": 22
+            },
+            {
+                "amount": {
+                    "value": 8500,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "Revolut",
+                "period": {
+                    "type": "month",
+                    "value": 24
+                },
+                "dueAmount": {
+                    "value": 0,
+                    "currency": "AZN"
+                },
+                "perMonth": {
+                    "value": 416.66,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2018",
+                    "start": "22.01.2016"
+                },
+                "interestRate": 19
+            }
+        ],
+        "salary": {
+            "value": 4500,
+            "currency": "AZN"
+        },
+        "surname": "Quliyeva",
+        "hasSalaryCard": true,
+        "hasLoanHistory": true
+    },
+    {
+        "id": 2,
+        "img": "https://randomuser.me/api/portraits/men/22.jpg",
+        "name": "Qabil",
+        "loans": [
+            {
+                "amount": {
+                    "value": 8500,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "Revolut",
+                "period": {
+                    "type": "month",
+                    "value": 24
+                },
+                "dueAmount": {
+                    "value": 0,
+                    "currency": "AZN"
+                },
+                "perMonth": {
+                    "value": 290.99,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2019",
+                    "start": "22.01.2020"
+                },
+                "interestRate": 19
+            }
+        ],
+        "salary": {
+            "value": 900,
+            "currency": "AZN"
+        },
+        "surname": "Eliyev",
+        "hasSalaryCard": true,
+        "hasLoanHistory": true
+    },
+    {
+        "id": 3,
+        "img": "https://randomuser.me/api/portraits/women/12.jpg",
+        "name": "Sahile",
+        "loans": [
+            {
+                "amount": {
+                    "value": 9300,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "Bank of Trauny",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 400.10,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 30000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "TBC",
+                "period": {
+                    "type": "month",
+                    "value": 12
+                },
+                "perMonth": {
+                    "value": 306.66,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 2916,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "03.01.2022",
+                    "start": "03.01.2021"
+                },
+                "interestRate": 22
+            },
+            {
+                "amount": {
+                    "value": 8500,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "Revolut",
+                "period": {
+                    "type": "month",
+                    "value": 24
+                },
+                "dueAmount": {
+                    "value": 0,
+                    "currency": "AZN"
+                },
+                "perMonth": {
+                    "value": 416.66,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2018",
+                    "start": "22.01.2016"
+                },
+                "interestRate": 19
+            },
+            {
+                "amount": {
+                    "value": 9900,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "Bank of Trauny",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 777.77,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            }
+        ],
+        "salary": {
+            "value": 1020,
+            "currency": "AZN"
+        },
+        "surname": "Eliyeva",
+        "hasSalaryCard": true,
+        "hasLoanHistory": true
+    },
+    {
+        "id": 4,
+        "img": "https://randomuser.me/api/portraits/women/48.jpg",
+        "name": "Gunel",
+        "loans": [
+            {
+                "amount": {
+                    "value": 10000,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "Bank of Trauny",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 553.55,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 3000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "TBC",
+                "period": {
+                    "type": "month",
+                    "value": 12
+                },
+                "perMonth": {
+                    "value": 306.66,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 2916,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "03.01.2022",
+                    "start": "03.01.2021"
+                },
+                "interestRate": 22
+            }
+        ],
+        "salary": {
+            "value": 1110,
+            "currency": "AZN"
+        },
+        "surname": "Memmedova",
+        "hasSalaryCard": true,
+        "hasLoanHistory": true
+    },
+    {
+        "id": 5,
+        "img": "https://randomuser.me/api/portraits/men/33.jpg",
+        "name": "Elgun",
+        "loans": [
+            {
+                "amount": {
+                    "value": 200000,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "Bank of Trauny",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 1000.00,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 10000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "TBC",
+                "period": {
+                    "type": "month",
+                    "value": 12
+                },
+                "perMonth": {
+                    "value": 306.66,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 2916,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "03.01.2022",
+                    "start": "03.01.2021"
+                },
+                "interestRate": 22
+            },
+            {
+                "amount": {
+                    "value": 9000000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "Revolut",
+                "period": {
+                    "type": "month",
+                    "value": 24
+                },
+                "dueAmount": {
+                    "value": 0,
+                    "currency": "AZN"
+                },
+                "perMonth": {
+                    "value": 2000.66,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2018",
+                    "start": "22.01.2016"
+                },
+                "interestRate": 19
+            }
+        ],
+        "salary": {
+            "value": 4500,
+            "currency": "AZN"
+        },
+        "surname": "Abdullayev",
+        "hasSalaryCard": true,
+        "hasLoanHistory": true
+    },
+    {
+        "id": 6,
+        "img": "https://randomuser.me/api/portraits/women/3.jpg",
+        "name": "Vefa",
+        "loans": [
+            {
+                "amount": {
+                    "value": 95000,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "Bank of Trauny",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 600.90,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 10000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "TBC",
+                "period": {
+                    "type": "month",
+                    "value": 12
+                },
+                "perMonth": {
+                    "value": 306.66,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 2916,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "03.01.2022",
+                    "start": "03.01.2021"
+                },
+                "interestRate": 22
+            }
+        ],
+        "salary": {
+            "value": 3100,
+            "currency": "AZN"
+        },
+        "surname": "Yusifqizi",
+        "hasSalaryCard": true,
+        "hasLoanHistory": true
+    },
+    {
+        "id": 7,
+        "img": "https://randomuser.me/api/portraits/men/99.jpg",
+        "name": "Kamran",
+        "loans": [
+            {
+                "amount": {
+                    "value": 150000,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "Bank of Trauny",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 999.93,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 80000,
+                    "currency": "AZN"
+                },
+                "closed": false,
+                "loaner": "TBC",
+                "period": {
+                    "type": "month",
+                    "value": 12
+                },
+                "perMonth": {
+                    "value": 300.55,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 2916,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "03.01.2022",
+                    "start": "03.01.2021"
+                },
+                "interestRate": 22
+            },
+            {
+                "amount": {
+                    "value": 10000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "VTB",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 309.90,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 9000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "Kapital Bank",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 120.00,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 20000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "Bank of Baku",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 330.88,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            }
+        ],
+        "salary": {
+            "value": 2090,
+            "currency": "AZN"
+        },
+        "surname": "Abisov",
+        "hasSalaryCard": true,
+        "hasLoanHistory": true
+    },
+    {
+        "id": 8,
+        "img": "https://randomuser.me/api/portraits/men/34.jpg",
+        "name": "Taleh",
+        "loans": [
+            {
+                "amount": {
+                    "value": 10000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "Bank of Trauny",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 590.88,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            },
+            {
+                "amount": {
+                    "value": 10000,
+                    "currency": "AZN"
+                },
+                "closed": true,
+                "loaner": "Bank of Baku",
+                "period": {
+                    "type": "month",
+                    "value": 36
+                },
+                "perMonth": {
+                    "value": 590.88,
+                    "currency": "AZN"
+                },
+                "dueAmount": {
+                    "value": 4200,
+                    "currency": "AZN"
+                },
+                "loanPeriod": {
+                    "end": "22.01.2022",
+                    "start": "22.01.2019"
+                },
+                "interestRate": 18
+            }
+        ],
+        "salary": {
+            "value": 2200,
+            "currency": "AZN"
+        },
+        "surname": "Qafarov",
+        "hasSalaryCard": true,
+        "hasLoanHistory": true
+    }
+]
+
+
