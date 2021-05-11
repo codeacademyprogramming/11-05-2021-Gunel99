@@ -316,6 +316,7 @@ function checkTheme() {
     }
 }
 
+// api
 fetch(`https://randomuser.me/api/`)
 .then(resp => {
     return resp.json();
@@ -330,6 +331,7 @@ fetch(`https://randomuser.me/api/`)
     const image = document.getElementById("image");
     name.textContent = `${user.name.first} ${user.name.last}`;
     email.textContent = user.email;
+    // created image
     var userImage = new Image();
     userImage.style.borderRadius = "50%";
     userImage.src = user.picture.medium;
