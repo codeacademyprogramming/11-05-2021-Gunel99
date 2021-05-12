@@ -1,7 +1,8 @@
 let customers = document.querySelector('table#customer > tbody');
-let applierCustomers = document.querySelector('div.modal .modal-body tbody');
+let applierCustomers = document.querySelector('div.modal.customers-list .modal-body tbody');
 let close = document.querySelector('.modal-footer > button');
 let langSelector = document.querySelector('.dropdown > .dropdown-menu');
+let apiUsersList = document.querySelector('div.modal.api-users-list .modal-body tbody');
 
 function fetchJSONFile(path, callback) {
     var httpRequest = new XMLHttpRequest();
@@ -110,7 +111,7 @@ function addRow(customer)
         customer.loans.forEach(loan => {
             let applierTr = document.createElement('tr');
             
-            let customerFullname = document.querySelector('.modal-title');
+            let customerFullname = document.querySelector('div.modal.customers-list .modal-title');
             customerFullname.textContent = customer.name + " " + customer.surname;
             Id = customer.id;
             let applierLoaner = document.createElement('td');
@@ -322,7 +323,6 @@ fetch(`https://randomuser.me/api/`)
     return resp.json();
 })
 .then(users => {
-    console.log(users.results[0]);
     return users.results[0];
 })
 .then(user => {
@@ -336,5 +336,55 @@ fetch(`https://randomuser.me/api/`)
     userImage.style.borderRadius = "50%";
     userImage.src = user.picture.medium;
     image.append(userImage);
+    console.log(user)
+
+    // click
+    name.onclick = function () {
+        apiUsersList.innerHTML = "";
+            let apiUserTr = document.createElement('tr');
+            let userFullname = document.querySelector('div.modal.api-users-list .modal-title');
+            let userEmail = document.createElement('td');
+            let userGender = document.createElement('td');
+            let userAge = document.createElement('td');
+            let userPhone = document.createElement('td');
+            let userCountry = document.createElement('td');
+            let userCity = document.createElement('td');
+            let userStreet = document.createElement('td');
+            let userPostcode = document.createElement('td');
+
+            
+            name.setAttribute("data-toggle", "modal");
+            name.setAttribute("data-target", "#myModalUser");
+
+            userFullname.textContent = `${user.name.first} ${user.name.last}`;
+            userEmail.textContent = user.email;
+            userGender.textContent = user.gender;
+            userAge.textContent = user.dob.age;
+            userPhone.textContent = user.phone;
+            userCountry.textContent = user.location.country;
+            userCity.textContent = user.location.city;
+            userStreet.textContent = user.location.street.name;
+            userPostcode.textContent = user.location.postcode;
+
+
+       
+    
+                apiUserTr.appendChild(userFullname);
+                apiUserTr.appendChild(userEmail);
+                apiUserTr.appendChild(userGender);
+                apiUserTr.appendChild(userAge);
+                apiUserTr.appendChild(userPhone);
+                apiUserTr.appendChild(userCountry);
+                apiUserTr.appendChild(userCity);
+                apiUserTr.appendChild(userStreet);
+                apiUserTr.appendChild(userPostcode);
+
+
+
+
+
+                apiUsersList.append(apiUserTr);
+        
+    } 
 })
 
